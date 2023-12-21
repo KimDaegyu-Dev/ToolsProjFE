@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Plaster';
+  src: url(../fonts/Plaster-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Bold';
+  src: url(../fonts/Pretendard-Bold.woff);
+}
+
+@font-face {
+  font-family: 'ExtraBold';
+  src: url(../fonts/Pretendard-ExtraBold.woff);
+}
+
+@font-face {
+  font-family: 'ExtraLight';
+  src: url(../fonts/Pretendard-ExtraLight.woff);
+}
+
+@font-face {
+  font-family: 'Light';
+  src: url(../fonts/Pretendard-Light.woff);
+}
+
+@font-face {
+  font-family: 'Medium';
+  src: url(../fonts/Pretendard-Medium.woff);
+}
+
+@font-face {
+  font-family: 'Regular';
+  src: url(../fonts/Pretendard-Regular.woff);
+}
+
+@font-face {
+  font-family: 'SemiBold';
+  src: url(../fonts/Pretendard-SemiBold.woff);
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.ck-editor__editable {
+  height: 100vh;
+  width: 100%;
+}
+
+/* .ck-editor {
+  height: 100%;
+  width: 100%;
+} */
+
+/* .editor__editable,
+main .ck-editor[role='application'] .ck.ck-content,
+.ck.editor__editable[role='textbox'],
+.ck.ck-editor__editable[role='textbox'],
+.ck.editor[role='textbox'] {
+  width: 100%;
+  background: #fff;
+  font-size: 1em;
+  line-height: 1.6em;
+  min-height: var(--ck-sample-editor-min-height);
+  padding: 1.5em 2em;
+}
+.ck.ck-editor__editable {
+  background: #fff;
+  border: 1px solid hsl(0, 0%, 70%);
+  width: 100%;
+} */

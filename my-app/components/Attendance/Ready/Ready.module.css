@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container div {
+  margin: auto;
+  text-align: center;
+}
+
+.container div > * {
+  display: block;
+}
+
+.container strong {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.container span {
+  font-size: 20px;
+  margin: 6px 0px 24px 0px;
+}
+
+.container button {
+  font-size: 15px;
+  padding: 11px 34px;
+  border-radius: 12px;
+  border: 0px;
+  outline: 0px;
+  background-color: #7743db;
+  color: #ffffff;
+  margin: 0px auto;
+  cursor: pointer;
+}
